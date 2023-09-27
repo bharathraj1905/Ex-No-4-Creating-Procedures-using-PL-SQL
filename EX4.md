@@ -24,7 +24,7 @@ CREATE TABLE employeee(empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary 
   9  COMMIT;
  10  END;
  11  /
-     BEGIN
+BEGIN
   2  insert_employeee_data;
   3  END;
     select * from employeee;
