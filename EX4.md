@@ -24,9 +24,15 @@ CREATE TABLE employeee(empid NUMBER,empname VARCHAR(10),dept VARCHAR(10),salary 
   9  COMMIT;
  10  END;
  11  /
+     BEGIN
+  2  insert_employeee_data;
+  3  END;
+    select * from employeee;
+  4  /
 ```
 ### Output:
 ![image](https://github.com/bharathraj1905/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121490575/30626b33-2354-451c-869c-54ed63878888)
+![image](https://github.com/bharathraj1905/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121490575/8ef1336d-c979-4626-9ca5-985b3495d055)
 
 
 ### Result:
